@@ -26,8 +26,8 @@ Add: netproto and pthread
 • 	Error rate
 7. 	Choose the file and verify the Go-Back-N protocol operation.
 
-💻 Program
-
+## 💻 Program
+```
 #include <stdio.h>
 
 void main() {
@@ -60,9 +60,12 @@ void main() {
     printf("\nSending frame %d\nFRAME ACKNOWLEDGED...\n", j);
     printf("\n\nALL FRAMES RECEIVED SUCCESSFULLY\n\n");
 }
+```
 
 🖥️ Sample Output
-<img width="1236" height="1108" alt="code block 2" src="https://github.com/user-attachments/assets/49621d52-6eda-4d7e-85e0-49a6ad75a1d6" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/959263c7-49d9-4cad-96fe-e31e24208708" />
+
 
 ✅ Result
 
